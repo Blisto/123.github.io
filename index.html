@@ -3,111 +3,62 @@
 <head>
     <meta charset="utf-8">
     <title>Vegetables</title>
-    <!-- <link rel="stylesheet" type="text/css" media="screen" href="css/style.css">
-    <link href='https://fonts.googleapis.com/css?family=Roboto:300,100,400' rel='stylesheet' type='text/css'> -->
-    <link rel="stylesheet" href="css/normalize.css">
     <link rel="stylesheet" href="css/style.css">
-    <link href='https://fonts.googleapis.com/css?family=Roboto:300,100,400' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
 </head>
 
 <body>
-    <div class="container">
-        <header class="container-header">
-            <h1 class="header-title">Vegetables</h1>
-            <img src ="images/btn_facebook.png" , class ="header-icon">
-            <img src ="images/btn_instagram.png", class ="header-icon">
-            <hr class = "header-text-line"></hr>
-            <p class = "header-text-LOGIN">LOGIN</p>
-            <p class ="header-text-JOIN">JOIN</p>
-        </header>
-        <!-- <div class="row clearfix align-items-center ">
-            <div class="ml-0">
-                <h1 class="main-header">Vegetables</h1>
-            </div>
-                
-            <div class="header-button ml-auto mr-0 arial-bold-mt">
-                <img src="./images/btn_facebook.png">
-                <img src="./images/btn_instagram.png">
-                <span></span>
-                <button>LOGIN</button>
-                <button>JOIN</button>
-            </div>
-        </div> -->
-
-
-
-        <div class="container-area">
-            <header class="container-area-header">
-                <nav class="nav">
-                    <ul class="nav-list">
-                        <li class="nav-list-item">
-                        <a href="#", class="nav-list-item-link">Home</a>
-                        </li>
-                        <li calss="nav-list-item">
-                        <a href="#", class="nav-list-item-link">Abous Us</a>
-                        </li>
-                        <li calss="nav-list-item">
-                        <a href="#", class="nav-list-item-link">Vegetables</a>
-                        </li>
-                        <li calss="nav-list-item">
-                        <a href="#", class="nav-list-item-link">Online</a>
-                        </li>
-                        <li calss="nav-list-item">
-                        <a href="#", class="nav-list-item-link">Contact</a>
-                        </li>
-                    </ul>
-                </nav>
+        <div class="wrap">
+            <header class="header">
+                <h1 class="title-vegetables">Vegetables</h1>
+                <div class="btn">
+                    <img class="img-fb-font" src="images/btn_facebook.png">
+                    <img class="img-ig-font" src="images/btn_instagram.png">
+                    <div class="line"></div>
+                    <button class="btn-login" type:"button">LOGIN</button>
+                    <button class="btn-join" type:"button">JOIN</button>
+                </div>
             </header>
+            <nav class="nav">
+                <a class="nav-link nav-link-home" href="#">Home</a>
+                <a class="nav-link" href="#">About Us</a>
+                <a class="nav-link" href="#">Vegetables</a>
+                <a class="nav-link" href="#">Online</a>
+                <a class="nav-link nav-link-Contact" href="#">Contact</a>
+            </nav>
+            <img class="img-main" src="images/img_main_pumpkin.png">
+            <div class="content">
+                <div class="left-content">
+                    <div class="left-content-title-area">
+                        <h1 class="left-content-title">Vegetables</h1>
+                    </div>
+                    <div class="img-vegetables-contnet">
+                        <img class="img-space" src="images/img_vegetables_pepper.png">
+                        <img class="img-space" src="images/img_vegetables_carrot.png">
+                        <img src="images/img_vegetables_corn.png">
+                    </div>
+                </div>
+                <div class="right-content">
+                    <div class="right-content-title-area">
+                        <h1 class="right-content-title">Contact</h1>
+                    </div>
+                    <div class="contact-content">
+                        <p class="detail-content">For any questions or suggestions about Vegetables, Vegetables Club or your online order you can
+                            contact Vegetables Customer Service by phone, email or post and we’ll be happy to help.</p>
+                        <div class="contact-line"></div>
+                        <p class="phone">
+                            E-mail : Vegetables@aaabbccc.com
+                            <br>
+                            PHONE : +886-123-456-789
+                        </p>
+                    </div>
+                </div>
+            </div>
+    
+            <div class="footer">
+                <h1 class="title-footer">Copyrights 2017 Vegetables cise / Design by Vegetables</h1>
+            </div>
         </div>
-
-        
-        <article class = "article">
-            <div class="banner">
-            <img src="images/img_main_pumpkin.png", class ="article-banner-image">
-            </div>
-        </article>
-
-        <article class = "article">
-            <div class="vegeatables">
-                <header class="vegeatables-header">
-                    <h1 class="vegeatables-header-title">Vegeatables</h1>
-                </header>
-
-                <article class="vegeatables-article">
-                    <div class="vegeatables-article-banner">
-                        <img src = "images/img_vegetables_carrot.png" , class = "vegeatables-article-banner-image">
-                        <img src = "images/img_vegetables_corn.png"   , class = "vegeatables-article-banner-image">
-                        <img src = "images/img_vegetables_pepper.png" , class = "vegeatables-article-banner-image">
-                    </div>
-                </article>
-            </div>
-
-            <div class ="contact">
-                <header class="contact-header">
-                    <h1 class="contact-header-title">Contact</h1>
-                </header>
-
-                <article calss ="contact-article">
-                    <div class = "contact-article-text">
-                        <p class= "contact-article-text-intent">
-                        For any questions or suggestions about Vegetables, Vegetables 
-                        Club or your online order you can contact Vegetables Customer Service by phone, email or post and we’ll be happy to help.
-                        </p>
-                        <hr class="contact-article-text-line"></hr>
-                        <p class= "contactr-article-text-intent">
-                        E-mail : Vegetables@aaabbccc.com 
-                        </p>
-                        <p class= "contactr-article-text-intent">
-                        PHONE : +886-123-456-789 
-                        </p>
-                    </div>
-                </article>
-            </div>
-        </article>
-        <footer class="footer">
-            <p class="footer-text">&copy; Copyrights 2017 Vegetables cise / Design by Vegetables</p>
-        </footer>
-    </div>
-
-</body>
+    </body>
+    
 </html>
